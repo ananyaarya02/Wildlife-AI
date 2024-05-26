@@ -1,0 +1,148 @@
+* {
+    padding:0;
+    margin: 0;
+  }
+  
+  *, 
+  *:before, 
+  *:after {
+    -moz-box-sizing: border-box; 
+    -webkit-box-sizing: border-box; 
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Roboto Slab', serif;
+    font-weight: 300;
+    color: #000000;
+     -webkit-font-smoothing: antialiased;
+  }
+  
+  header {
+    text-align: center;
+    text-transform: uppercase;
+  }
+  
+  header p {
+    letter-spacing: 2px;
+    font-weight: 300;
+    font-size: larger;
+  }
+  
+  h1 {
+    font-weight: 100;
+    font-size: 3em; 
+    margin-top: 30px;
+    line-height: 1em;
+  }
+  
+  p {
+    line-height: 1.75em;
+  }
+  
+  .about p {
+    padding-bottom: 10px;
+    text-align: justify;
+  }
+  
+  footer p {
+    text-align: center;
+    font-size: 0.625em; 
+  }
+  
+  small {
+    text-align: center;
+  }
+  
+  strong {
+    font-weight: 400;
+  }
+  
+  a {
+    text-decoration: none;
+    font-weight: 400;
+    color: #333;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+    color: #666;
+  }
+  
+  
+  .social a {
+    opacity: 0.3;
+    transition: opacity .25s ease-in-out;
+     -moz-transition: opacity .25s ease-in-out;
+     -webkit-transition: opacity .25s ease-in-out;
+  }
+  
+  .social a:hover {
+    opacity: 0.8;
+  }
+  
+  .social li {
+    display: inline;
+    margin: 5px;
+    color: #444;
+    font-size: large;
+  }
+  
+  .social li img {
+    width: 80px;
+  }
+  
+  
+  .container {
+    width: 800px;
+    margin: 50px 100px 25px auto;
+    background-color: rgba(255, 255, 255, 0.719);
+    padding: 0 60px 30px;
+    border-radius: 6px;
+  }
+  
+  .social {
+    margin-top: 60px;
+    text-align: center;
+  }
+  
+  footer {
+    margin-top: 30px;
+  }
+  
+  
+  /* Responsive Styles */
+  
+  @media only screen and (min-width: 1920px) {
+    .background {
+      background-size: 100%;
+    }
+  }
+  
+  @media only screen and (max-width: 600px) {
+  
+    .container {
+      width: 90%;
+      margin-top: 50px;
+      padding: 0 30px 30px; 
+    }
+  
+    h1 {
+      font-size: 2.25em; /* 36/16 */
+      margin-bottom: 20px;
+    }
+  
+    .social {
+      margin-top: 20px;
+    }
+  
+    .about p {
+      text-align: left;
+      padding-bottom: 15px;
+    }
+    
+    .about p:nth-of-type(1) { 
+      font-size: 1.25em; /* 20/16 */
+      text-align: center;
+    }
+  }
