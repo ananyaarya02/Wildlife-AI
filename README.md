@@ -29,3 +29,10 @@
   </ol>
 </ul>
 
+<h4>Requirements</h4>
+<ul>
+  <li>Flask 3.0.3
+  <li> Pickle </li>
+  <li>Torchvision 0.15.2 </li>
+  <li>Torch 2.2.0</li>
+</ul>
