@@ -19,7 +19,13 @@
   <ol>
     <li>Enriched content for schools/universities</li>
     <li> Hands-on learning tools</li>
-    <li>Understanding animal behavior and ecosystem health</li>
+    <li>Increased awareness and engagement</li>
+  </ol>
+  <li>Tourism Enhancement</li>
+  <ol>
+    <li>Enhanced visitor experiences</li>
+    <li>Interactive, educational tours</li>
+    <li>Increased revenue for conservation</li>
   </ol>
 </ul>
 
