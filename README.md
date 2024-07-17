@@ -1,10 +1,8 @@
 # Wildlife-AI
 <h2>Tell them : We care Decoding Wildlife with AI</h2>
-<h3>There is a lot of wildlife still unknown to us, this is our small step to get to know them bet
+<h3>There is a lot of wildlife still unknown to us, this is our small step to get to know them better. Upload the picture of the animal you wish to know more about</h3>
 
-https://github.com/user-attachments/assets/7a8bedc9-fb00-4690-ad28-ade6afe4870f
-
-ter. Upload the picture of the animal you wish to know more about</h3>
+https://github.com/user-attachments/assets/7dfe0201-e315-4d29-8407-5331b750b2ca
 
 <h4>The problem Wildlife AI solves</h4>
 <ul>
