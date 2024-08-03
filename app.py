@@ -35,24 +35,8 @@ def transform_image(image_bytes):
 @app.route('/')
 def home():
     return render_template('index.html')
-'''
-@app.route('/predict', methods=['POST'])
-def predict():
-    if 'file' not in request.files:
-        return jsonify({'error': 'No file part'})
-    file = request.files['file']
-    if file.filename == '':
-        return jsonify({'error': 'No selected file'})
-    if file:
-        img_bytes = file.read()
-        tensor = transform_image(img_bytes)
-        outputs = model(tensor)
-        _, predicted = outputs.max(1)
-        class_name = class_names[predicted.item()]
-        return jsonify({'predicted_class': class_name})'''
-@app.route('/predict', methods=['POST'])
 
-
+@app.route('/predict', methods=['POST'])
 def predict():
     try:
         if 'file' not in request.files:
@@ -72,18 +56,9 @@ def predict():
             
                  }
 
-            '''outputs = model(tensor)
-            _, predicted = outputs.max(1)
-            class_name = class_names[predicted.item()]
-            response = {
-            'predicted_class': class_name,
-            
-            }'''
-
             return jsonify(response)
 
-            #return jsonify({'predicted_class': class_name})
-        #return jsonify({'error': 'File processing failed'}), 500
+           
     except Exception as e:
         
         print(f"Error during prediction: {str(e)}")
